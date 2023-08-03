@@ -1,0 +1,91 @@
+:root {
+    --main-color : #1b8415;
+}
+
+* {
+    margin: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+header {
+    margin-left: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 15px;
+}
+
+.kemenag-title {
+    color: var(--main-color);
+}
+
+.kemenag-logo {
+    width: 8rem;
+}
+
+.navv a {
+    color: white;
+}
+
+main {
+    margin-top: 1em;
+    height: 100vh;
+}
+
+main a {
+    color: #1b8415;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt-index {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    text-align: justify;
+}
+
+.left {
+    margin-left: 2rem;
+    width: 30em;
+}
+
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 15em;
+    margin-right: 40px;
+}
+
+.relate1 {
+    width: 10em;
+    height: 10vw;
+    background: #eeeeee;
+    object-fit: cover;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+
+/* footer {
+    background: rgb(0, 0, 88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 2px;    
+} */
